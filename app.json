@@ -16,13 +16,13 @@
         "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":",.",
       "required":true
     },
       "AUTO_REACTION":
     {
       "description":"Put on if you want the bot to react to people's messages.It won't react to your messages and those from creator France King.", 
-      "value":"off", 
+      "value":"on", 
       "required":false 
     }, 
     "AUTO_READ_MESSAGES":
@@ -53,14 +53,14 @@
      "BOT_MENU_LINKS" : {
 
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+      "value":"",
       "required":false
 
      },
     "BOT_MODE":
     {
       "description":"put private  to put your bot on private mode or public to put it on public mod",
-      "value":"private",
+      "value":"public",
       "required":false
     }
         ,
@@ -76,7 +76,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with FLASH-MD-WA-BOT...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSUs3NzMvbGRFTGV4SUltZjNLVFRYY1d3VmNFWGZOaVFZSGxFcE1ZT0oxRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNFdkWGhDaVltUWVpdjVybU1uTUJPZVh0RVlvL1Jwb0wrSDBFdm9Bd0kxWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJpTDFPTHdrRFc4YmR0Z2FObC9GOFVMNngwQnN6VUpYUXc0ZXFBS09aS1V3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJpS29MU0lVQUxmT1lVVFJQTUgwdC9jZDhyRjZPeEQ1WDRnUlQ0RHZOZlZzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktJVVdLZHpQT3BMMlgvYVNwYmcraHdvSmZzWXlMc0gvT3BpYTRTTmxDMTQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFJNmI2WGlKSDJtVld6OFg5QXVrSlp0REh3T1J5eDNWeWZuaE91cHYweTg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU5JUVJoTWEzMjZuRnI1LzNFZXRpdmI2cWVQWG50RjRiZTVMUGYzcGdYVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY2Erd09Nd3NXRklENllxYnhOZjdGMXBZWUlQcVkzMDRaZzRqU3Nja01Ybz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVXWC9tRU5mV0JlYUFaUjRCcXFsNlFRUUJKOU5YRDE0TE14YTFwanBtaTZCd0lqdlhGRlVFNzBMOW45V3hCSmJiTDJMclM4ZkFSbWt5YktyZHdzMGd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTMsImFkdlNlY3JldEtleSI6IkRDQk9VRGRyU0xRNmNIWlNrc1Y1Z0gzaWRDeVlBaDZtK1JpY0FscHdJaWM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjJzbjNPaHluVE9lUVc2TWVwTWx2ZGciLCJwaG9uZUlkIjoiYmYyZWZiNTktYWVkYy00ODI5LWJlMjMtM2NmNDUyNjc0MDlkIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5hZ01CdFNHc1R0UXNtRUJwcng0djFLMm1mVT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1a2ZmaTlnTjlnaGZsMXE3WmtQUjhSUlZZdzA9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiREtLUjNFN1giLCJtZSI6eyJpZCI6IjI1Njc1OTMyOTgyMToyNEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJMaWwgTWFya29zIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNOZVEyL1FIRU5id2dMWUdHQUlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJHUzJVSEhVZGF6aERmNVFJc3NOMUhnUnJTbDNudG9jL2g4UFNTTU1BVmpZPSIsImFjY291bnRTaWduYXR1cmUiOiIrRlpMM0ZLZWRWRENPbmRUQThWOXIzMzlKK0tZeGx2UTBYdThlSHdic04vQTg0YW4vOWdFeW9RekZTUEtiQmhQZXhtRUpHY2dNNWFlUWp3VnZGMGtBZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiZnU1NmxFeW5vdFdIcFdGbVM4dkJraXI0UDFZSktQcyt6SzROTENmN2l0VDROL0FTQXZLMlUzUXRDKzU3ankrR3NXclRxaU8zYS81UVlTUDhORUJRanc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTY3NTkzMjk4MjE6MjRAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUmt0bEJ4MUhXczRRMytVQ0xMRGRSNEVhMHBkNTdhSFA0ZkQwa2pEQUZZMiJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMzg3MzM4MH0=",
       "required": true
 
     },
@@ -85,14 +85,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "Lil Markos"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":false,
-    "value": "254751284190"
+    "value": "256759329821"
   },
     "WARN_COUNT":
   {
@@ -104,13 +104,13 @@
     {
       "desc": "Put on to allow the bot to chat with people who text you or put off if you don't want the bot to chat with people",
       "required": false, 
-       "value": "off" 
+       "value": "on" 
     }, 
   "STARTING_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put off else put on",
     "required": true,
-    "value": "on"
+    "value": "off"
   },
   "PRESENCE":{
     "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
